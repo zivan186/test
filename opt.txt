@@ -1,0 +1,96 @@
+[
+  {
+    "Port": "0-65535",
+    "OutboundTag": "direct",
+    "Ip": [],
+    "Domain": [],
+    "Process": [],
+    "Enabled": true,
+    "Remarks": "\u041E\u0441\u0442\u0430\u043B\u044C\u043D\u043E\u0435 \u0432 \u043F\u0440\u043E\u043A\u0441\u0438"
+  },
+  {
+    "OutboundTag": "block",
+    "Domain": [
+      "geosite:category-ads-all"
+    ],
+    "Enabled": true,
+    "Remarks": "\u0411\u043B\u043E\u043A\u0438\u0440\u043E\u0432\u043A\u0430 \u0440\u0435\u043A\u043B\u0430\u043C\u044B"
+  },
+  {
+    "OutboundTag": "direct",
+    "Ip": [
+      "geoip:private"
+    ],
+    "Enabled": true,
+    "Remarks": "\u041F\u0440\u0438\u0432\u0430\u0442\u043D\u044B\u0435 \u0441\u0435\u0442\u0438 \u043D\u0430\u043F\u0440\u044F\u043C\u0443\u044E"
+  },
+  {
+    "OutboundTag": "direct",
+    "Domain": [
+      "geosite:private"
+    ],
+    "Enabled": true,
+    "Remarks": "\u041F\u0440\u0438\u0432\u0430\u0442\u043D\u044B\u0435 \u0434\u043E\u043C\u0435\u043D\u044B \u043D\u0430\u043F\u0440\u044F\u043C\u0443\u044E"
+  },
+  {
+    "Port": "",
+    "OutboundTag": "proxy",
+    "Ip": [],
+    "Domain": [
+      "domain:youtube.com",
+      "domain:youtu.be",
+      "domain:yt.be",
+      "domain:googlevideo.com",
+      "domain:ytimg.com",
+      "domain:ggpht.com",
+      "domain:gvt1.com",
+      "domain:youtube-nocookie.com",
+      "domain:youtube-ui.l.google.com",
+      "domain:youtubeembeddedplayer.googleapis.com",
+      "domain:youtube.googleapis.com",
+      "domain:youtubei.googleapis.com",
+      "domain:yt-video-upload.l.google.com",
+      "domain:wide-youtube.l.google.com",
+      "domain:rutracker.org",
+      "domain:nnmclub.to",
+      "domain:discord.com",
+      "domain:dis.gd",
+      "domain:discord.co",
+      "domain:discord.com",
+      "domain:discord.design",
+      "domain:discord.dev",
+      "domain:discord.gg",
+      "domain:discord.gift",
+      "domain:discord.gifts",
+      "domain:discord.media",
+      "domain:discord.new",
+      "domain:discord.store",
+      "domain:discord.tools",
+      "domain:discordapp.com",
+      "domain:discordapp.net",
+      "domain:discordmerch.com",
+      "domain:discordpartygames.com",
+      "domain:discord-activities.com",
+      "domain:discordactivities.com",
+      "domain:discordsays.com",
+      "domain:discordstatus.com",
+      "domain:facebook.com",
+      "domain:fbcdn.net",
+      "domain:fb.com",
+      "domain:messenger.com",
+      "domain:twitter.com",
+      "domain:twimg.com",
+      "domain:t.co",
+      "domain:x.com",
+      "domain:instagram.com",
+      "domain:cdninstagram.com",
+      "domain:igcdn-photos-e-a.akamaihd.net",
+      "domain:instagramstatic.com",
+      "domain:2ip.ru",
+      "domain:disqus.com"
+    ],
+    "Process": [],
+    "Enabled": true,
+    "Remarks": "ttvnw.net"
+  }
+]
